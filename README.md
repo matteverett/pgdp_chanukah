@@ -31,6 +31,17 @@ If you have any questions, please ask in the project thread.
 ### General notes ###
 
 ### Illustrations ###
+* p. 001: titlepage.jpg
+* p. 001: halftitle.jpg
+* p. 005: image005.jpg
+* p. 030: image030
+
+### Languages ###
+* English
+* Hebrew
+
+### Review ###
+* [ ] Transliterations
 
 ### Proofer's notes ###
 

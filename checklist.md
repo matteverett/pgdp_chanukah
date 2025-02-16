@@ -15,11 +15,11 @@ _The story of Chanukah_ by Sacks, Benjamin, B.A.
 ## Project Setup
 
 ### Create Project
-* [ ] Choose a project name
+* [x] Choose a project name
   * Choose a short, simple project name, e.g. `pascal` for “*The Provincial Letters of Blaise Pascal*”
   * Should be simple, no spaces, lowercase, e.g. "missfairfax" was used for "Miss Fairfax of Virginia".
   * This is used by scripts and to name the GitHub repo, so use it consistently.
-* [ ] Run the setup script
+* [x] Run the setup script
   * ```shell
     cd ~/dp/util
     . venv/bin/activate
@@ -28,85 +28,83 @@ _The story of Chanukah_ by Sacks, Benjamin, B.A.
   * Setup script fetches the project resources and creates the Github repository
 
 ### Review Project Details
-* [ ] Read the project comments
-* [ ] Subscribe to the project forum
-* [ ] Read all forum posts
+* [x] Read the project comments
+* [x] Subscribe to the project forum
+* [x] Read all forum posts
 
 ### Setup Guiguts
-* [ ] Open `flute-src.txt` in Guiguts
-* [ ] Configure page labels
+* [x] Open `chanukah-src.txt` in Guiguts
+* [x] Configure page labels
   * `File → Project → Configure Page Labels...`
-* [ ] Check for roman numerals and unnumbered pages
-* [ ] Go to end of book to check page numbers line up
+* [x] Check for roman numerals and unnumbered pages
+* [x] Go to end of book to check page numbers line up
 
 ### Open Images  
-* [ ] Open images in Pixea: `open -a Pixea pngs`
+* [x] Open images in Pixea: `open -a Pixea pngs`
 
 ## Preliminary Review
 
 ### Illustrations
-* [ ] Note illustrations in `README.md`
-* [ ] Move illustrations to `illustrations/` folder
+* [x] Note illustrations in `README.md`
+* [x] Move illustrations to `illustrations/` folder
 
 ### Languages
-* [ ] Note languages other than the main book language in `README.md`
+* [x] Note languages other than the main book language in `README.md`
   * In HTML they can be labeled with `<span lang="fr">..</span>`
   * If they're in italic print, that's handled later during italic handling
 
 ### HTML Notes
-* [ ] Note things that will need attention in the HTML in `README.md`, for example:
+* [x] Note things that will need attention in the HTML in `README.md`, for example:
   * Author cross-references like "`(p. 150)`" and "`see page 222`" that should become links.
   * How the editor laid out special sections such as tables and sidebars.
 
 ### Check balanced markup
-* [ ] `Tools → Unmatched → DP Markup...`
+* [x] `Tools → Unmatched → DP Markup...`
   * whiSearches for the regular expression `\<(\w+)>\n?[^<]+<(?!/\1>)`, that is any markup starting in `<..>` that doesn't end in an identical closing markup.
   * Note: this regular expression sees `<tb>` as unbalanced, and shows the text from the `<tb>` to the next markup as an error. (If you can devise a better regex please do!)
   * Possible alternate that explicitly lists all current markup `\<(i|b|sc|g||f|u)>\n?[^<]+<(?!/\1>)`
   * Because it includes a newline, the search may take several seconds to return the first result.
-  * [ ] Correct any errors and click search until no more are found.
+  * [x] Correct any errors and click search until no more are found.
 
-* [ ] `Tools → Unmatched → Block Markup...`
-  * [ ] Correct any errors and click search until no more are found.
+* [x] `Tools → Unmatched → Block Markup...`
+  * [x] Correct any errors and click search until no more are found.
 
 ### Check Formatting
 * Proper spacing for chapters and paragraphs:
-  * [ ] Before chapter start: 4 blank lines
-  * [ ] Between chapter head and subhead: 1 blank line
-  * [ ] Between head (or subhead) and chapter body: 2 blank lines
-  * [ ] Pages should **not** start with a blank line unless starting a new chapter, section, or paragraph.
-  * [ ] Each overall block should have blank lines before & after
+  * [x] Before chapter start: 4 blank lines
+  * [x] Between chapter head and subhead: 1 blank line
+  * [x] Between head (or subhead) and chapter body: 2 blank lines
+  * [x] Pages should **not** start with a blank line unless starting a new chapter, section, or paragraph.
+  * [x] Each overall block should have blank lines before & after
 
-* [ ] Proper markup of `<i>italic</i>` and `<b>bold</b>`
+* [x] Proper markup of `<i>italic</i>` and `<b>bold</b>`
   * Watch for punctuation wrongly contained in markup, such as `<i>(ibid.</i>` or `<b>Subtopic.</b>`.
 
 * Proper markup of foreign languages:
   * [ ] Greek and other transliterations
 
 * Proper markup of all block material:
-  * [ ] Poetry, misc. tabular in `/* */`
-  * [ ] Block quotes in `/# #/`
+  * [x] Poetry, misc. tabular in `/* */`
+  * [x] Block quotes in `/# #/`
 
 * Proper markup of illustrations:
-  * [ ] Figures properly marked as `[Illustration: caption]`
-  * [ ] For captionless (`[Illustration: ]`), remove colon & whitespace
-  * [ ] Caption text agrees with List of Illustrations (if any)
-  * [ ] Consistent spelling, abbreviation, capitalization in captions
+  * [x] Figures properly marked as `[Illustration: caption]`
+  * [x] For captionless (`[Illustration: ]`), remove colon & whitespace
+  * [x] Caption text agrees with List of Illustrations (if any)
+  * [x] Consistent spelling, abbreviation, capitalization in captions
 
-* [ ] Search `(</i>)([!?;:])` & replace `$2$1` to find punct that should move inside quotes
-* [ ] Use `Tools → Check Orphaned Brackets` to check each type of bracket and markup.
-  * Do not omit the lowly parenthesis, often mis-scanned as curly-brace.
+* [x] Search `(</i>)([!?;:])` & replace `$2$1` to find punct that should move inside quotes
 
-* [ ] Look for malformed thought-breaks (5 stars). Regex: `\*\s*\*\s*\*\s*\*\s*\*`
+* [x] Look for malformed thought-breaks (5 stars). Regex: `\*\s*\*\s*\*\s*\*\s*\*`
 
 ## Preliminary Fixup
 
 ### Basic Fixup
-* [ ] Open `Tools → Basic Fixup...`
-* [ ] Correct entries as appropriate
+* [x] Open `Tools → Basic Fixup...`
+* [x] Correct entries as appropriate
 
 ### Fix Block Markups 
-* [ ] Use the `Search` menu to step through all `/* */` blocks.
+* [x] Use the `Search` menu to step through all `/* */` blocks.
   * Regex: `^(/\*|\*/)`
   * Check for a blank line before and after markup
   * Make sure correct [Rewrap Markers](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Rewrap_Markers) are used
@@ -114,7 +112,7 @@ _The story of Chanukah_ by Sacks, Benjamin, B.A.
   * Apply specific [indent value](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Table_Indent) if desired
   * Make sure poetry line numbers are at least two spaces to the right of the line.
 
-* [ ] Use the `Search` menu to step through all `/#..#/` blocks.
+* [x] Use the `Search` menu to step through all `/#..#/` blocks.
   * Regex: `^(/#|#/)`
   * Check for a blank line before and after markup
   * Make sure correct [Rewrap Markers](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Rewrap_Markers) are used
@@ -123,19 +121,19 @@ _The story of Chanukah_ by Sacks, Benjamin, B.A.
   * Apply specific [margin values](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Block_Quote_Indent_and_Margins) if desired
 
 ### Fix Page Formatting
-* [ ] Remove the extra block markers around page boundaries
-* [ ] Join words hyphenated across page boundary
+* [x] Remove the extra block markers around page boundaries
+* [x] Join words hyphenated across page boundary
 * Handle blank pages:
-  * [ ] Check that `[Blank Page]` are blank
-  * [ ] Remove blank pages
+  * [x] Check that `[Blank Page]` are blank
+  * [x] Remove blank pages
 
 ### Fix Footnotes and Illustrations
-* [ ] Fix Footnotes and Illustrations still inside a paragraph
+* [x] Fix Footnotes and Illustrations still inside a paragraph
   * Move outside paragraph to next or prior page, as appropriate
   * Don't worry about duplicate footnote numbers/symbols for now
   * Sidenotes are handled later
 
-* [ ] Use `Tools → Footnote Fixup`. This will help you validate and move any footnotes.
+* [x] Use `Tools → Footnote Fixup`. This will help you validate and move any footnotes.
   * `First Pass`
   * `Next / Prev FN` to navigate
   * Look for `*` and use `Join with Previous` to join them
@@ -143,20 +141,20 @@ _The story of Chanukah_ by Sacks, Benjamin, B.A.
     * Exception: sometimes a footnote is really long (brown)
     * Exception: multiple anchors per footnote can confuse it (teal)
 
-* [ ] Move footnotes between paragraphs
+* [x] Move footnotes between paragraphs
   * `Footnote Fixup`, `First Pass`
   * `All to Number`, `Reindex`
   * `First Pass`, `Move FNs to Para`
 
 ### Fix Sidenotes
-* [ ] Step through sidenotes
+* [x] Step through sidenotes
   * Read the [discussion](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Sidenotes).
   * Search & Replace of `[S`, not regex, not whole word, ignore case. Click `Search` to find each Sidenote.
-* [ ] Compare to page image. Move note above paragraph if feasible.
+* [x] Compare to page image. Move note above paragraph if feasible.
   * Otherwise, position it above the sentence to which it applies, with blank lines to prevent rewrapping if you decide that is best.
 
 ### Fix Poetry Line Numbers
-* [ ] If the book has poetry that uses line numbers, read [this page](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Poetry_Line_Numbers) and align the line numbers consistently.
+* [x] If the book has poetry that uses line numbers, read [this page](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Poetry_Line_Numbers) and align the line numbers consistently.
 
 ## Preliminary Corrections
 
