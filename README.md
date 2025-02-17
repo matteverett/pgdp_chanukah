@@ -42,6 +42,8 @@ If you have any questions, please ask in the project thread.
 
 ### Review ###
 * [ ] Transliterations
+* [ ] Spaces between initials: Benjamin Sacks B. A.
+* [ ] Hebrew words
 
 ### Proofer's notes ###
 

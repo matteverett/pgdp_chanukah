@@ -588,7 +588,7 @@ extraordinary bravery won for him his surname
 “Maccabee”, a Hebrew word meaning “Hammerer”.
 There are many who say that this surname
 is derived from the first letters of the
-Hebrew words [**Hebrew] “Who is like
+Hebrew words <lang=he>מי כמוך באלים יי</lang> “Who is like
 thee, O Lord among the Gods”, which were inscribed
 on Judas’s banner. At first, Judas was
 the only one to be honored by the surname “Maccabee”;
@@ -835,7 +835,7 @@ to commemorate the victory of the small
 band of Jews over the mighty hosts of the Syrians.
 -----File: 030.png---------------------------------------------------------
 To this day, this festival which is known as
-[**Hebrew] the “Feast of Dedication”, is celebrated
+<lang=he>חנוכה</lang>  the “Feast of Dedication”, is celebrated
 by the Jews each year all over the world. On the
 eight days candles are lit, and special prayers
 are offered to the Lord for that He saved his
