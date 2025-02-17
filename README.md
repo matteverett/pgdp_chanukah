@@ -44,6 +44,8 @@ If you have any questions, please ask in the project thread.
 * [ ] Transliterations
 * [ ] Spaces between initials: Benjamin Sacks B. A.
 * [ ] Hebrew words
+* [ ] h3 correct for sections? 
+* [ ] All sic TN entries
 
 ### Proofer's notes ###
 

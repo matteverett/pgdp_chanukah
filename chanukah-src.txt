@@ -1,65 +1,136 @@
+// ppgen source for The Story of Chanukah
+// ppgen ver 3.57e
 
------File: 001.png---------------------------------------------------------
+// Set title
+.dt The Story of Chanukah | Project Gutenberg
 
+// Set line length
+.ll 72
 
+// Define CSS
+.de .tnbox { border:1px solid silver; padding: 0.5em; margin:2em 10% 0 10%; }
 
+// Define macros
+.dm chapter-break
+.sp 4
+.dm-
 
-/*
+.dm section-break
+.sp 2
+.dm-
+
+.dm new-page $1
+.bn $1.png
+.pn +1
+.dm-
+
+.dm new-page-break $1
+.pb
+.pm new-page $1
+.dm-
+
+.dm verse-start
+.in +4
+.nf b
+.dm-
+
+.dm verse-end
+.nf-
+.in -4
+.dm-
+
+// Page numbering
+.pn off // turn off visible page numbers
+.pn link
+
+// Paragraph formatting, indent paragraphs by 0.75 em.
+.pi
+.nr psi 0.75em
+
+.bn 001.png
+.pn 1
+
+.pm chapter-break
+
+.ce 11
 TO
+
 THE MEMORY
+
 OF
+
 THE LATE MINA LIPPMAN AARON
+
 THESE PAGES ARE
+
 DEDICATED
-*/
 
------File: 002.png---------------------------------------------------------
------File: 003.png---------------------------------------------------------
+.pm chapter-break
 
+.if h
+.il fn=i001.png w=45px ew=10%
 
+.pm chapter-break
+.if-
 
+.pm new-page 002
+.pm new-page-break 003
 
-/*
-THE
-STORY OF CHANUKAH
+.pm chapter-break
 
+.h1
+<fs=150%>THE|STORY OF CHANUKAH</fs>
+
+.ce 3
 BY
+
 BENJAMIN SACKS B. A.
 
-[Illustration]
+.il fn=i003.png w=160px ew=35%
 
+.ce 3
 HEBREW INSTITUTE
+
 PITTSBURGH PA.
 
+.hr 6%
+
+.ce
 5678
 
+.hr 6%
+
+.ce
 COPYRIGHT 1913
-*/
 
------File: 004.png---------------------------------------------------------
+.pm chapter-break
 
+.pm new-page-break 004
 
+.pm chapter-break
 
-
+.fs 125%
+.ce
 THE FESTIVAL
-
 
 The festival of Chanukah was instituted by
 Judas Maccabeus and the elders of the Congregation
 of Israel in the year 3595 on the
 25th day of Kislev
------File: 005.png---------------------------------------------------------
+.fs
 
+.pm chapter-break
 
+.pm new-page-break 005
 
+.pm chapter-break
 
-[Illustration]
+.il fn=i005.jpg w=400px ew=85%
 
+.h2
+<fs=125%>THE STORY OF CHANUKA.</fs>
 
-
-
-THE STORY OF CHANUKA.
-
+.pm section-break
 
 Upon the death of Alexander the Great, under
 whose reign the Jews enjoyed freedom and peace,
@@ -80,7 +151,7 @@ the meantime, became a tributary to Egypt. The
 Jews were treated well by the Egyptians; they
 were allowed to appoint their own governors; and
 their religion was not interfered with.
------File: 006.png---------------------------------------------------------
+.pm new-page 006
 
 About 100 years after the death of Alexander,
 Antiochus III., surnamed the Great, ascended the
@@ -106,14 +177,16 @@ tribute to the Romans. He sent out his treasurer,
 Heliodorus, to plunder the Temple, and bring
 back these riches to Antioch.
 
+.pm section-break
 
+.h3
 HELIODORUS IN THE TEMPLE.
 
 Heliodorus immediately set out for Jerusalem,
 without acquainting any one of his purpose.
 When he arrived there, he told Onias of the
 King’s orders, and demanded that he quietly surrender
------File: 007.png---------------------------------------------------------
+.pm new-page 007
 the treasure. The High Priest replied that
 there was quite a large treasure in the Temple,
 but that it was by no means as large as had been
@@ -143,7 +216,7 @@ beautiful youths, who attended the warrior, then
 beat Heliodorus with rods until he fainted. When
 Heliodorus was carried out of the Temple by the
 priests, the spark of life scarcely burned within
------File: 008.png---------------------------------------------------------
+.pm new-page 008
 him. When Onias, the High Priest, saw this,
 fearing lest the wrath of the King should be incurred,
 offered sacrifices and prayers to God,
@@ -151,7 +224,9 @@ and thus restored Heliodorus to life. The treasurer
 returned to Antioch empty-handed, and told
 the King of his failure.
 
+.pm section-break
 
+.h3
 ANTIOCHUS CROWNED KING OF SYRIA.
 
 In the course of the same year, Heliodorus,
@@ -162,7 +237,9 @@ of this, he immediately secured the aid of another
 king, and easily crushed the usurper. Antiochus
 IV. now became King of Syria.
 
+.pm section-break
 
+.h3
 BUYING THE HIGH PRIESTHOOD.
 
 Scarcely had Antiochus begun to rule, when
@@ -176,7 +253,7 @@ he was welcomed; and, by offering the
 King a very large bribe, prevailed upon him to
 depose his brother Onias, and appoint him in his
 place. Not only was Onias removed from the
------File: 009.png---------------------------------------------------------
+.pm new-page 009
 High Priesthood, but he was also forced to take
 up his residence at Antioch, where he would not
 interfere with the new High Priest. Jason next
@@ -197,7 +274,9 @@ place. This Menelaus was even more corrupt than
 Jason, and later proved himself guilty of the
 most horrible crimes.
 
+.pm section-break
 
+.h3
 MENELAUS’ SACRILEGE.
 
 Menelaus soon found that he was unable to
@@ -207,7 +286,7 @@ punctuality of his subjects in their payment of
 tribute, summoned him to Antioch. Fearing that
 he would be punished or stripped of his office,
 he sent secret directions to his brother Lysimachus,
------File: 010.png---------------------------------------------------------
+.pm new-page 010
 who was acting as High Priest during his
 absence, to remove some of the holy vessels from
 the Temple, and to send him the money obtained
@@ -231,14 +310,15 @@ pursued and killed. Menelaus, in the meantime
 by bribing the King, gained his support, and
 continued to remain in the office of High Priest.
 
+.pm section-break
 
-ANTIOCHUS’S ENTRANCE INTO
-JERUSALEM.
+.h3
+ANTIOCHUS’S ENTRANCE INTO|JERUSALEM.
 
 While Antiochus was engaged in attacking
 Egypt, a report was spread that he had been
 killed. This news was received by the Jews with
------File: 011.png---------------------------------------------------------
+.pm new-page 011
 great joy. Jason, the deposed High Priest, knowing
 that Menelaus would now be left without a
 protector entered Jerusalem, defeated the soldiers
@@ -258,7 +338,9 @@ to Antioch all the sacred vessels, the table of
 shewbread, the golden candlestick, and the altar
 of incense.
 
+.pm section-break
 
+.h3
 THE MASSACRE OF THE JEWS.
 
 Upon his return, two years later from Egypt,
@@ -269,7 +351,7 @@ chief generals, was sent to Judea with an army.
 Inasmuch as that general had been sent there
 before with his troops as a collector of taxes, his
 coming caused no alarm. His soldiers did not
------File: 012.png---------------------------------------------------------
+.pm new-page 012
 trouble the inhabitants, who had not the slightest
 suspicion of their intentions. When the Sabbath
 came, the Syrians, knowing that the Jews would
@@ -281,7 +363,9 @@ meekly submitted to be butchered. Houses were
 pulled down and plundered, and the walls of the
 city destroyed.
 
+.pm section-break
 
+.h3
 THE DESECRATION OF THE TEMPLE.
 
 The King next issued a decree forbidding the
@@ -300,12 +384,14 @@ altar of burnt offerings, and sacrifices made to
 it. In order to escape this terrible persecution,
 many Jews fled from the holy city to the mountains.
 The once beautiful Jerusalem, in which
------File: 013.png---------------------------------------------------------
+.pm new-page 013
 the Jewish people had for so many years enjoyed
 happiness and peace, was now laid waste like a
 wilderness and became an abode for strangers.
 
+.pm section-break
 
+.h3
 ANTIOCHUS THE MADMAN.
 
 In order to enforce his laws, the cruel king
@@ -328,12 +414,14 @@ their lives for refusing to worship heathen
 idols and gods, many heroes shed their blood on
 the field of battle to uphold their religion.
 
+.pm section-break
 
+.h3
 ELEAZAR.
 
 In Antioch, there lived a pious old man in his
 ninetieth year, named Eleazar. When the overseers
------File: 014.png---------------------------------------------------------
+.pm new-page 014
 came to see that the commands of the
 King were obeyed, this old man refused to eat of
 the swine’s flesh which was offered him. The
@@ -352,7 +440,9 @@ last words of the martyr were:
 “Hear, O Israel, the Lord our God is One”, and
 then he died.
 
+.pm section-break
 
+.h3
 HANNAH AND HER SEVEN SONS.
 
 Even more pitiable is the story of Hannah
@@ -363,7 +453,7 @@ oldest of the sons, saying: “Bow to my gods”.
 “God forbid”, answered the oldest son, “that I
 should bow to your idols”. “Why not?” asked
 the King. “Because our commandments teach
------File: 015.png---------------------------------------------------------
+.pm new-page 015
 us, “I am the Lord your God”, and I shall worship
 no other”. After being cruelly tortured in
 the sight of his mother and brothers, he was
@@ -394,7 +484,7 @@ man has never lived”, answered the fifth son
 when commanded to bow to the King’s gods.
 “Remove the insolent fellow”, cried the King,
 full of wrath. And so the brave boy died.
------File: 016.png---------------------------------------------------------
+.pm new-page 016
 
 The sixth son was then brought before the
 King. But he, too, suffered the fate of his brothers.
@@ -424,7 +514,7 @@ fate. But I do not wish to harm you; you are
 too young to die. I am going to cast my ring on
 the ground, pick it up and your life will be
 spared”. To kneel down and pick up the ring
------File: 017.png---------------------------------------------------------
+.pm new-page 017
 was not wrong, it was only a mark of respect to
 the King which the Jewish Law permitted. But
 the boy, young as he was, quickly saw that if he
@@ -454,7 +544,7 @@ own laws forbid it; for is it not said, “Whether
 it be an ox or a sheep, thou shalt not kill it and
 its young in one day”. As the boy was being led
 away, Hannah cried out, “I have surpassed Abraham.
------File: 018.png---------------------------------------------------------
+.pm new-page 018
 He built one altar on which to sacrifice
 one son, whereas I have built seven altars on
 which I have sacrificed seven sons”. One by one
@@ -481,12 +571,14 @@ cruelties. Houses were plundered; synagogues
 were destroyed; and thousands of Jews were put
 to death, victims of the wrath of the King.
 
+.pm section-break
 
+.h3
 MATTATHIAS AND HIS FIVE SONS.
 
 And thus, when the Jews were on the verge of
 being wiped out as a nation forever, there arose
------File: 019.png---------------------------------------------------------
+.pm new-page 019
 in their midst a family of heroes, who were destined
 to free their people from their cruel oppressors,
 and again establish their independence.
@@ -516,11 +608,13 @@ every one else were to yield, yet he would rather
 die than forsake his religion. He then commanded
 his sons to follow his example. When
 a cowardly apostate stepped forward to offer
------File: 020.png---------------------------------------------------------
+.pm new-page 020
 the sacrifice, Mattathias could not restrain himself,
 and killed both the Jew and the officer.
 
+.pm section-break
 
+.h3
 THE ESCAPE TO THE MOUNTAINS.
 
 Mattathias then cried out in a loud voice,
@@ -546,14 +640,16 @@ making any attempt to defend themselves. Mattathias,
 foreseeing that if the Jews would offer
 no resistance on the Sabbath, that they would
 quickly be wiped out, decided that it was not only
------File: 021.png---------------------------------------------------------
+.pm new-page 021
 lawful for them to fight on that day, but that it
 was their duty to do so. The decision of Mattathias
 was accepted by all, and the Jews thereafter
 did not hesitate to fight on the Sabbath,
 when their lives were at stake.
 
+.pm section-break
 
+.h3
 THE DEATH OF MATTATHIAS.
 
 As Mattathias was too old to endure the hardships
@@ -568,7 +664,9 @@ was the wisest of them, the counsellor of the
 nation. Then Mattathias died, and the whole nation
 mourned for him.
 
+.pm section-break
 
+.h3
 JUDAS MACCABAEUS.
 
 An abler leader than Judas could not have
@@ -579,7 +677,7 @@ like the roar of a lion. His bold fearlessness
 made him the terror of his enemies, who shrunk
 from him. But besides his great strength and
 his remarkable courage, he possessed that love
------File: 022.png---------------------------------------------------------
+.pm new-page 022
 for his God, that enthusiasm for his religion
 that left nothing impossible. No disadvantage
 was for him too great to overcome; no army too
@@ -596,7 +694,9 @@ but, later, the name passed to his brothers;
 and, finally, to all who fought under his
 standard.
 
+.pm section-break
 
+.h3
 THE DEFEAT OF APPOLONIUS.
 
 Judas went a step further than his father,
@@ -609,14 +709,16 @@ Syrian general who had recently plundered Jerusalem
 and murdered its inhabitants, was soon
 informed of the revolt, and raised a large army
 to crush Judas. But Judas, although his army
------File: 023.png---------------------------------------------------------
+.pm new-page 023
 was only a handful compared with the large forces
 of the enemy, marched against Appolonius,
 and totally defeated his army and slew him. Judas
 took the sword of Appolonius as a trophy,
 and used it in all his latter battles.
 
+.pm section-break
 
+.h3
 THE ROUTING OF SERON.
 
 Seron, the Syrian lieutenant, aroused by the
@@ -638,12 +740,13 @@ Seron fell early in the battle, and his army, confused
 and without a commander, was routed with
 great loss of life.
 
+.pm section-break
 
-THE SYRIAN GOVERNMENT PLACED
-IN CHARGE OF LYSIAS.
+.h3
+THE SYRIAN GOVERNMENT PLACED|IN CHARGE OF LYSIAS.
 
 When King Antiochus heard of the victories
------File: 024.png---------------------------------------------------------
+.pm new-page 024
 of Judas, he was greatly angered and raised a
 large army to crush him. But along with the
 news of the uprising of the Jews came the report
@@ -657,9 +760,10 @@ and placed him in charge of his kingdom, with
 orders to destroy the Jewish nation, and people
 their land with strangers.
 
+.pm section-break
 
-JUDAS’S VICTORY OVER NICANOR
-AND GORGIAS.
+.h3
+JUDAS’S VICTORY OVER NICANOR|AND GORGIAS.
 
 In obedience to the King’s command, Lysias
 sent out, on the following year, forty thousand
@@ -675,7 +779,7 @@ supplied with large amounts of gold and silver
 and chains to lead off their slaves.
 
 Judas, in the meantime, having heard that
------File: 025.png---------------------------------------------------------
+.pm new-page 025
 the Syrian armies had come to fight against him,
 assembled his six thousand men at Mizpah near
 Emmaus, where they fasted and prayed as in
@@ -706,7 +810,7 @@ of the Syrian army under Nicanor lay encamped.
 It was morning before he arrived; and, encouraging
 his men not to fear the large number
 of the enemy by reminding them how the Jews
------File: 026.png---------------------------------------------------------
+.pm new-page 026
 were saved from the Egyptians in the Red Sea,
 he rushed down upon the Syrians. The Syrian
 general, thinking that Gorgias would easily crush
@@ -737,12 +841,14 @@ and clothing, but also of the large sums of money
 which the slave dealers had brought along with
 them. As a just punishment for the slave dealers
 who had come to buy, the Jews sold as many
------File: 027.png---------------------------------------------------------
+.pm new-page 027
 of them as they could find, as slaves. The next
 day was the Sabbath, and it was indeed a day
 of rest and rejoicing for the brave Jews.
 
+.pm section-break
 
+.h3
 THE RETREAT OF LYSIAS.
 
 Nicanor, who had escaped from Judea disguised
@@ -762,7 +868,9 @@ were determined to conquer or die. He therefore
 made his retreat from Judea and returned to
 Antioch.
 
+.pm section-break
 
+.h3
 THE PURIFICATION OF THE TEMPLE.
 
 Now that Lysias, the strongest of the King’s
@@ -771,7 +879,7 @@ Jews could turn their attention to the holy
 city, which had been defiled by the Syrians.
 Judas and his men now entered Jerusalem. They
 found the city in ruins, the altar profaned, the
------File: 028.png---------------------------------------------------------
+.pm new-page 028
 gates of the city burned up, and shrubs growing
 in the inner courts of the Temple. At the sight
 of this desolation, the Jews rent their clothes,
@@ -801,7 +909,7 @@ sufficient to last for one day. But lo! a miracle
 happened. When the oil was lit, not only did it
 last for one day but for eight days! This was
 interpreted as a sure sign that God was looking
------File: 029.png---------------------------------------------------------
+.pm new-page 029
 upon the work of his people with favor, and
 served to increase their happiness.
 
@@ -822,7 +930,9 @@ public observance of the Jewish Laws, the actual
 rule of the Syrians may be said to have come
 to an end. Judea was now practically independent.
 
+.pm section-break
 
+.h3
 THE FESTIVAL OF CHANUKA.
 
 The restoration of the public worship in the
@@ -833,7 +943,7 @@ decided that the eight days beginning with the
 annually, as a festival of rejoicing and thanksgiving
 to commemorate the victory of the small
 band of Jews over the mighty hosts of the Syrians.
------File: 030.png---------------------------------------------------------
+.pm new-page 030
 To this day, this festival which is known as
 <lang=he>חנוכה</lang>  the “Feast of Dedication”, is celebrated
 by the Jews each year all over the world. On the
@@ -841,4 +951,33 @@ eight days candles are lit, and special prayers
 are offered to the Lord for that He saved his
 people from being wiped out as a nation forever.
 
-[Illustration]
+.il fn=i030.png w=45px ew=10%
+
+.pb
+
+.dv class=tnbox
+.ce
+.if h
+<b>Transcriber’s Notes</b>
+.if-
+.if t
+Transcriber’s Notes
+.if-
+.ul indent=1
+.it The following issues should be noted, along with the resolution:
+.ta l:4 l:52 l:11 w=90%
+#7#  | was deposited by widows and orphans for safe[-]keeping. | Joined.
+#7#  | deprive the righ[t]ful owners of their property, and | Added.
+#17# | was not wrong, it was only a mark of r[e]spect to | Added.
+#18# | And thus, when the Jews were on [the] verge of | Added.
+.if h
+#23# | and used it in all his latter battles. | <i>sic</i>: latter
+.if-
+.if t
+#23# | and used it in all his latter battles. | sic: latter
+.if-
+#28# | [with] new ones. So zealously was the work of the restoration | Added.
+#29# | The restoration of the pu[p/b]lic worship in the | Replaced.
+.ta-
+.ul-
+.dv-
