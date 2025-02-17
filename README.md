@@ -50,6 +50,18 @@ If you have any questions, please ask in the project thread.
 ### Spellcheck ###
 
 ### Transcriber's notes ###
+* 4 | 25th day of Kislev | sic: no period
+* 7 | was deposited by widows and orphans for safe[-]keeping. | Joined.
+* 7 | deprive the righ[t]ful owners of their property, and | Added.
+* 10 | Priest heard of this, his anger was aroused, and | sic: no comma
+* 11 | protector entered Jerusalem, defeated the soldiers | sic: no comma
+* 13 | them to adopt one faith. The Jews however, were | sic: no comma
+* 15 | put to death. | sic: no tb
+* 17 | was not wrong, it was only a mark of r[e]spect to | Added.
+* 18 | And thus, when the Jews were on [the] verge of | Added.
+* 23 | and used it in all his latter battles. | sic: latter
+* 28 | [with] new ones. So zealously was the work of the restoration | Added.
+* 29 | The restoration of the pu[p/b]lic worship in the | Replaced.
 
 ### HTML file review ###
 The iPhone/iPad simulators can't use `file://` URLs. Start a local web server with `python3 -m http.server` in the project directory and going to `localhost:8000` in Safari on the device. 
