@@ -127,7 +127,7 @@ of Israel in the year 3595 on the
 
 .il fn=i005.jpg w=400px ew=85%
 
-.h2
+.h2 nobreak
 <fs=125%>THE STORY OF CHANUKA.</fs>
 
 .pm section-break
@@ -179,7 +179,7 @@ back these riches to Antioch.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 HELIODORUS IN THE TEMPLE.
 
 Heliodorus immediately set out for Jerusalem,
@@ -226,7 +226,7 @@ the King of his failure.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 ANTIOCHUS CROWNED KING OF SYRIA.
 
 In the course of the same year, Heliodorus,
@@ -239,7 +239,7 @@ IV. now became King of Syria.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 BUYING THE HIGH PRIESTHOOD.
 
 Scarcely had Antiochus begun to rule, when
@@ -276,7 +276,7 @@ most horrible crimes.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 MENELAUS’ SACRILEGE.
 
 Menelaus soon found that he was unable to
@@ -312,7 +312,7 @@ continued to remain in the office of High Priest.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 ANTIOCHUS’S ENTRANCE INTO|JERUSALEM.
 
 While Antiochus was engaged in attacking
@@ -340,7 +340,7 @@ of incense.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 THE MASSACRE OF THE JEWS.
 
 Upon his return, two years later from Egypt,
@@ -365,7 +365,7 @@ city destroyed.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 THE DESECRATION OF THE TEMPLE.
 
 The King next issued a decree forbidding the
@@ -391,7 +391,7 @@ wilderness and became an abode for strangers.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 ANTIOCHUS THE MADMAN.
 
 In order to enforce his laws, the cruel king
@@ -416,7 +416,7 @@ the field of battle to uphold their religion.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 ELEAZAR.
 
 In Antioch, there lived a pious old man in his
@@ -442,7 +442,7 @@ then he died.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 HANNAH AND HER SEVEN SONS.
 
 Even more pitiable is the story of Hannah
@@ -573,7 +573,7 @@ to death, victims of the wrath of the King.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 MATTATHIAS AND HIS FIVE SONS.
 
 And thus, when the Jews were on the verge of
@@ -614,7 +614,7 @@ and killed both the Jew and the officer.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 THE ESCAPE TO THE MOUNTAINS.
 
 Mattathias then cried out in a loud voice,
@@ -649,7 +649,7 @@ when their lives were at stake.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 THE DEATH OF MATTATHIAS.
 
 As Mattathias was too old to endure the hardships
@@ -666,7 +666,7 @@ mourned for him.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 JUDAS MACCABAEUS.
 
 An abler leader than Judas could not have
@@ -696,7 +696,7 @@ standard.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 THE DEFEAT OF APPOLONIUS.
 
 Judas went a step further than his father,
@@ -718,7 +718,7 @@ and used it in all his latter battles.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 THE ROUTING OF SERON.
 
 Seron, the Syrian lieutenant, aroused by the
@@ -742,7 +742,7 @@ great loss of life.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 THE SYRIAN GOVERNMENT PLACED|IN CHARGE OF LYSIAS.
 
 When King Antiochus heard of the victories
@@ -762,7 +762,7 @@ their land with strangers.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 JUDAS’S VICTORY OVER NICANOR|AND GORGIAS.
 
 In obedience to the King’s command, Lysias
@@ -848,7 +848,7 @@ of rest and rejoicing for the brave Jews.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 THE RETREAT OF LYSIAS.
 
 Nicanor, who had escaped from Judea disguised
@@ -870,7 +870,7 @@ Antioch.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 THE PURIFICATION OF THE TEMPLE.
 
 Now that Lysias, the strongest of the King’s
@@ -932,7 +932,7 @@ to an end. Judea was now practically independent.
 
 .pm section-break
 
-.h3
+.h3 nobreak
 THE FESTIVAL OF CHANUKA.
 
 The restoration of the public worship in the
@@ -970,12 +970,6 @@ Transcriber’s Notes
 #7#  | deprive the righ[t]ful owners of their property, and | Added.
 #17# | was not wrong, it was only a mark of r[e]spect to | Added.
 #18# | And thus, when the Jews were on [the] verge of | Added.
-.if h
-#23# | and used it in all his latter battles. | <i>sic</i>: latter
-.if-
-.if t
-#23# | and used it in all his latter battles. | sic: latter
-.if-
 #28# | [with] new ones. So zealously was the work of the restoration | Added.
 #29# | The restoration of the pu[p/b]lic worship in the | Replaced.
 .ta-
