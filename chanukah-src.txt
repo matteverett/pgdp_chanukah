@@ -40,7 +40,7 @@
 .dm-
 
 // Page numbering
-.pn off // turn off visible page numbers
+// .pn off turn off visible page numbers
 .pn link
 
 // Paragraph formatting, indent paragraphs by 0.75 em.
@@ -86,7 +86,13 @@ BY
 
 BENJAMIN SACKS B. A.
 
+.if t
+.ce
+[Illustration]
+.if-
+.if h
 .il fn=i003.png w=160px ew=35%
+.if-
 
 .ce 3
 HEBREW INSTITUTE
@@ -194,9 +200,9 @@ reported; that the greater part of it consisted of
 holy gifts consecrated to God; that a considerable
 amount was deposited by Hyrcanus, a man high
 in favor of the King; and that the remainder
-was deposited by widows and orphans for safekeeping.
+was deposited by widows and orphans for <target=TN1>safekeeping.
 He added that he could not consent to
-deprive the rightful owners of their property, and
+deprive the <target=TN2>rightful owners of their property, and
 thus profane his high office, which was holy and
 revered by all.
 
@@ -515,7 +521,7 @@ too young to die. I am going to cast my ring on
 the ground, pick it up and your life will be
 spared”. To kneel down and pick up the ring
 .pm new-page 017
-was not wrong, it was only a mark of respect to
+was not wrong, it was only a mark of <target=TN3>respect to
 the King which the Jewish Law permitted. But
 the boy, young as he was, quickly saw that if he
 would do so, the surrounding crowds would think
@@ -576,7 +582,7 @@ to death, victims of the wrath of the King.
 .h3 nobreak
 MATTATHIAS AND HIS FIVE SONS.
 
-And thus, when the Jews were on the verge of
+And thus, when the Jews were on <target=TN4>the verge of
 being wiped out as a nation forever, there arose
 .pm new-page 019
 in their midst a family of heroes, who were destined
@@ -891,7 +897,7 @@ priests to enter the Temple to repair and purify
 it. The altar which had been defiled by the heathens,
 they set up anew. The holy vessels, which
 had been profaned by the Syrians, they replaced
-with new ones. So zealously was the work of the restoration
+<target=TN5>with new ones. So zealously was the work of the restoration
 carried on, that on the 25th day of the
 month of Kislev, the public worship could again
 be performed. With songs and thanksgiving,
@@ -935,7 +941,7 @@ to an end. Judea was now practically independent.
 .h3 nobreak
 THE FESTIVAL OF CHANUKA.
 
-The restoration of the public worship in the
+The restoration of the <target=TN6>public worship in the
 Temple was an event well worth remembering;
 and, for this reason, Judas and the Great Council
 decided that the eight days beginning with the
@@ -966,12 +972,12 @@ Transcriber’s Notes
 .ul indent=1
 .it The following issues should be noted, along with the resolution:
 .ta l:4 l:52 l:11 w=90%
-#7#  | was deposited by widows and orphans for safe[-]keeping. | Joined.
-#7#  | deprive the righ[t]ful owners of their property, and | Added.
-#17# | was not wrong, it was only a mark of r[e]spect to | Added.
-#18# | And thus, when the Jews were on [the] verge of | Added.
-#28# | [with] new ones. So zealously was the work of the restoration | Added.
-#29# | The restoration of the pu[p/b]lic worship in the | Replaced.
+#7:TN1#  | was deposited by widows and orphans for safe[-]keeping. | Joined.
+#7:TN2#  | deprive the righ[t]ful owners of their property, and | Added.
+#17:TN3# | was not wrong, it was only a mark of r[e]spect to | Added.
+#18:TN4# | And thus, when the Jews were on [the] verge of | Added.
+#28:TN5# | [with] new ones. So zealously was the work of the restoration | Added.
+#29:TN6# | The restoration of the pu[p/b]lic worship in the | Replaced.
 .ta-
 .ul-
 .dv-
